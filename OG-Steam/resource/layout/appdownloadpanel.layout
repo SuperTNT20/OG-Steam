@@ -224,7 +224,7 @@
 			font-weight=400
 			textcolor="white"
 			font-style=uppercase
-			bgcolor=none   
+			bgcolor=GreenBG   
 
 			render
 			{
