@@ -1099,7 +1099,7 @@ steam.styles
 			font-weight=400
 			textcolor="Text"
 			selectedtextcolor="White"
-			selectedbgcolor="MaizeBG"
+			selectedbgcolor="BorderDark"
 			shadowtextcolor="TextDisabled"	// the color of disabled line items		
 			render
 			{
@@ -1158,7 +1158,7 @@ steam.styles
 			textcolor=White
 			bgcolor=DarkGreenBG
 			selectedtextcolor = White
-			selectedbgcolor = MaizeBG
+			selectedbgcolor = BorderDark
 			inset="0 0 0 0"
 			render_bg
 			{
@@ -1190,7 +1190,7 @@ steam.styles
 			font-weight=400
 			textcolor="Text"
 			selectedtextcolor="White"
-			selectedbgcolor="MaizeBG"
+			selectedbgcolor="BorderDark"
 			inset="0 -1 1 1"
 			render_bg
 			{
@@ -1887,12 +1887,7 @@ steam.styles
 			bgcolor = none
 			render_bg
 			{
-				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
-				
-				5="gradient( x0, y0, x1, y0+80, DarkGreenBG, ClientBG )" // inside
+				0="gradient( x0, y0, x1, y0+80, DarkGreenBG, ClientBG )" // inside
 			}
 		}
 		
