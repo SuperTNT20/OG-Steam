@@ -98,7 +98,7 @@
 		place { controls="AutoUpdateTimeRestrictEndLabel" region=box start=AutoUpdateTimeRestrictStart dir=right margin-left=20 }
 		place { controls="AutoUpdateTimeRestrictEnd" region=box start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 }
 		
-		place { controls="ThrottleCheckbox" region=box start=RestrictionsLabel dir=down margin-top=4 margin-left=260 }
+		place { controls="ThrottleCheckbox" region=box start=RestrictionsLabel dir=down margin-top=4 margin-left=280 }
 		place { controls="ThrottleRateCurrent" region=box start=ThrottleCheckbox dir=down width=235 height=25 margin-top=4 }
 		place { controls="ThrottleRateEditLabel" region=box start=ThrottleRateCurrent dir=down width=175 height=25 }
 		place { controls="ThrottleRateEdit" region=box start=ThrottleRateEditLabel dir=down width=125 height=25 }
