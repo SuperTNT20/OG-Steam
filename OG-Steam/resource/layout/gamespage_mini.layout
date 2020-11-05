@@ -109,11 +109,11 @@
 		place [!$OSX] { control="frame_minimize,frame_maximize,frame_close" align=right margin-top=8 margin-right=8 spacing=2 }
 
 		place { control="library_search" }
-		place [!$OSX] { control="label_search_icon" align=left y=51 height=22 spacing=1 x=10 }
-		place [!$OSX] { control="library_search" align=left y=51 height=22 width=100 spacing=1 x=30 }
+		place [!$OSX] { control="label_search_icon" align=left y=55 height=22 spacing=1 x=10 }
+		place [!$OSX] { control="library_search" align=left y=55 height=22 width=100 spacing=1 x=30 }
 
-		place { control="gameslist" align=left margin-left=8 margin-right=8 margin-top=75 margin-bottom=25 width=max height=max }
-		place { control="library_filters" align=right margin-left=10 margin-right=8 margin-top=51 height=22 spacing=1 }
+		place { control="gameslist" align=left margin-left=8 margin-right=8 margin-top=85 margin-bottom=25 width=max height=max }
+		place { control="library_filters" align=right margin-left=10 margin-right=8 margin-top=55 height=22 spacing=1 }
 
  	}
 }
