@@ -60,7 +60,7 @@
 		
 	layout
 	{
-		place { control="FindEntry" width=180 align=left y=6 margin-right=26 margin-left=98 }
+		place { control="FindEntry" width=171 align=left y=6 margin-right=26 margin-left=106 }
 		place { control="FindCount" width=70 align=right y=6 margin-right=40 margin-left=6 margin-top=5 }
 		place { control="Next,Previous,Close" align=right height=24 width=22 margin-right=5 margin-top=6 }
 		place { control="SearchThisPage" align=left height=22 width=94 margin-left=8 margin-top=8}
