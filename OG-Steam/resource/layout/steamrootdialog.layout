@@ -167,12 +167,13 @@
 
 
 		CSteamRootDialog {
+			bgcolor = GreenBG
 			render_bg
 			{
-				1="fill( x0, y0, x1, y0 + 1, GreenBG )"  // top
-				2="fill( x0, y1 - 1, x1, y1, GreenBG )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, GreenBG )"  // left
-				4="fill( x1 - 1, y0, x1, y1, GreenBG )"  // right
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
 		}
 

@@ -245,7 +245,7 @@
 		DetailsBorderPanel
 		{
 			
-			bgcolor = none
+			bgcolor = DarkGreenBG
 			render_bg
 			{
 

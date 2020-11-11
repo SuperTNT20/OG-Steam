@@ -30,7 +30,7 @@
 		WrapPanel
 		{			
 			inset="0 0 0 0"
-			bgcolor=GrayBG
+			bgcolor=DarkGreenBG
 			render_bg {
 
 			1="image_scale( x0, y0, x1, y0 + 4, skins/OFGS3/Graphics/gameslist_fade_top )" // top fade

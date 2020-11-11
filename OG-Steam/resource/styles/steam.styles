@@ -1116,7 +1116,7 @@ steam.styles
 		GraphPanel
 		{
 			textcolor=Over
-			bgcolor=none
+			bgcolor=DarkGreenBG
 			inset="0 -3 0 0"
 			render_bg 
 			{	
@@ -1156,29 +1156,33 @@ steam.styles
 		{
 			font-family = basefont
 			textcolor=White
-			bgcolor=DarkGreenBG
+			bgcolor=none
 			selectedtextcolor = White
 			selectedbgcolor = BorderDark
 			inset="0 0 0 0"
 			render_bg
 			{
-				//1="fill( x0 + 1, y0, x1 - 1, y0 + 1, BorderDark )"  // top
-				2="fill( x0 + 1, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0 + 1, x0 + 1, y1 - 1, BorderDark )"  // left
-				4="fill( x1 - 1, y0 + 1, x1, y1 - 1, BorderBright )"  // right
+				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGreenBG )" // inside
 			}
 		}
 
 		"Page ListPanel"
 		{
 			inset = "1 1 1 1"
-			bgcolor = DarkGreenBG
+			bgcolor = none
 			render_bg
 			{
-				//1="fill( x0 + 1, y0, x1 - 1, y0 + 1, BorderDark )"  // top
-				2="fill( x0 + 1, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0 + 1, x0 + 1, y1 - 1, BorderDark )"  // left
-				4="fill( x1 - 1, y0 + 1, x1, y1 - 1, BorderBright )"  // right
+				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGreenBG )" // inside
 			}
 		}
 
@@ -1195,7 +1199,7 @@ steam.styles
 			render_bg
 			{
 				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
+				//2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
@@ -1432,13 +1436,14 @@ steam.styles
 			inset="0 1 0 0" [$OSX]
 			padding-top=1
 
-			render_bg
+			render
 			{
-				// fill
-				0="fill (x0, y0 + 1, x1, y1, GreenBG )" // bg fill
-
-				// lines around
-				2="fill ( x1 - 1, y0 + 3, x1, y1-1, GreenBG )" // right
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+				
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
 			}
 		}
 
@@ -1453,9 +1458,9 @@ steam.styles
 			bgcolor=GreenBG
 			render_bg
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
@@ -1468,9 +1473,9 @@ steam.styles
 			bgcolor=GreenBG
 			render_bg
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
@@ -1482,13 +1487,14 @@ steam.styles
 			inset="0 0 0 0"
 			render
 			{
-			  // background fill
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				// background fill
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
+				
 				6="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand )"
 			}   
 			render_bg
@@ -1501,13 +1507,14 @@ steam.styles
 			inset="0 0 0 0"
 			render
 			{
-			  // background fill
+				// background fill
 				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
 				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
+				
 				6="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand_over )"
 			}  
 			render_bg
@@ -1521,6 +1528,14 @@ steam.styles
 			inset="0 0 0 0"
 			render
 			{
+				 // background fill
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+			
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
+				
 				5="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand_over )"
 			}    
 			render_bg
@@ -1534,13 +1549,16 @@ steam.styles
 			bgcolor=GreenBG
 			render
 			{
-				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				// background fill
+				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+			
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
 				
-				5="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand )"
-			} 
+				6="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand )"
+			}   
 			render_bg
 			{
 			}
@@ -1552,13 +1570,16 @@ steam.styles
 			bgcolor=GreenBG
 			render
 			{
-				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				// background fill
+				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+			
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
 				
-				5="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand_over )"
-			}   
+				6="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand_over )"
+			}  
 
 		}
 
@@ -1568,13 +1589,16 @@ steam.styles
 			bgcolor=GreenBG
 			render
 			{
+				 // background fill
 				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+			
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
 				
 				5="image( x0 + 6, y0 + 6, x1, y1, graphics/icon_expand_over )"
-			}   
+			}  
 		}
 
 		ListPanelDragger
@@ -1592,11 +1616,11 @@ steam.styles
 		{
 			inset="3 1 0 0"
 			font-size=16
-			textcolor="text2"
-			bgcolor="DarkGreenBG"
+			textcolor="White"
+			bgcolor="none"
 			render
 			{
-				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
@@ -1609,7 +1633,7 @@ steam.styles
 		
 		ListPanelInterior:scrollbar
 		{
-			bgcolor=DarkGreenBG
+			bgcolor=none
 			inset="3 1 -1 0"
 			textcolor="text2"
 			render
@@ -1629,13 +1653,13 @@ steam.styles
 		 "Csteamrootdialog ListPanelInterior"
 		{
 			inset="3 0 3 0"
-			bgcolor=DarkGreenBG
+			bgcolor=none
 			render
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderDark )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
-				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				//4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			}
 		}
 
@@ -1655,10 +1679,10 @@ steam.styles
 		{
 			inset="3 1 -1 0"
 			font-size=16
-			bgcolor=DarkGreenBG
+			bgcolor=none
 			render
 			{
-				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
@@ -1668,7 +1692,7 @@ steam.styles
 		"Page ListPanelInterior:scrollbar"
 		{
 			inset="3 1 -1 0"
-			bgcolor=DarkGreenBG
+			bgcolor=none
 			render
 			{
 			}
@@ -1980,24 +2004,26 @@ steam.styles
 
 		ProgressBar
 		{
+			bgcolor = DarkGreenBG
 			textcolor = Over
-			render_bg
+			render
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 1, BorderDark )"  // top
-				2="fill( x0 + 1, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0 + 1, x0 + 1, y1 - 1, BorderDark )"  // left
-				4="fill( x1 - 1, y0 + 1, x1, y1 - 1, BorderBright )"  // right
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			}
 		}
 
 		"Page ProgressBar"
 		{
-			render_bg
+			bgcolor = DarkGreenBG
+			render
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 1, BorderDark )"  // top
-				2="fill( x0 + 1, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0 + 1, x0 + 1, y1 - 1, BorderDark )"  // left
-				4="fill( x1 - 1, y0 + 1, x1, y1 - 1, BorderBright )"  // right
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			}
 		}
 
