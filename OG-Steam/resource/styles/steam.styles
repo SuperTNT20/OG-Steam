@@ -1617,7 +1617,7 @@ steam.styles
 			inset="3 1 0 0"
 			font-size=16
 			textcolor="White"
-			bgcolor="none"
+			bgcolor="DarkGreenBG"
 			render
 			{
 				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top

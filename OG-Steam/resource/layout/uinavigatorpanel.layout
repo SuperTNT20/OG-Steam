@@ -923,9 +923,9 @@
 		place { control=NewLibraryPage		width=max height=max margin-top=82 margin-left=9 margin-right=9 margin-bottom=65 start=phonereminderbar dir=down }
 		place { control=ConsolePage 		width=max height=max margin-top=0 margin-left=0 margin-right=9 margin-bottom=64 start=emailreminderbar dir=down }
 
-		place { control=MediaPage 		width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=35 start=emailreminderbar dir=down }
-		place { control=ToolsPage 		width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=35 start=emailreminderbar dir=down }
-		place { control=MusicPage_Details width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=35 start=emailreminderbar dir=down }
+		place { control=MediaPage 		width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=64 start=emailreminderbar dir=down }
+		place { control=ToolsPage 		width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=64 start=emailreminderbar dir=down }
+		place { control=MusicPage_Details width=max height=max margin-top=0 margin-left=0 margin-right=8 margin-bottom=64 start=emailreminderbar dir=down }
 		place { control="library_music_player_icon" align=right y=57 height=16 width=16 margin-right=10 }
 
 	}
