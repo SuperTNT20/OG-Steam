@@ -2719,7 +2719,7 @@ steam.styles
 
 		ToggleButton:selected
 		{
-			textcolor="White"
+			textcolor="Over"
 			render_bg
 			{
 				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderDark )"  // top
@@ -2781,7 +2781,7 @@ steam.styles
 
 		"Page ToggleButton:selected"
 		{
-			textcolor="White"	
+			textcolor="Over"	
 			render_bg
 			{
 				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderDark )"  // top
