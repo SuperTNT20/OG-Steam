@@ -84,7 +84,7 @@
 		font-weight=400
 		bgcolor="DarkGreenBG"
 		selectedtextcolor="White"
-		selectedbgcolor="MazieBG"
+		selectedbgcolor="MaizeBG"
 		shadowtextcolor="Text"	// this is the cursor color
 		inset-left=4
 		inset-top=-1
