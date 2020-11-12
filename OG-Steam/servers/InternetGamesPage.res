@@ -291,7 +291,7 @@
 		region { name="bottom" align=bottom width=max height=34 margin=0 }
 
 		place { control="InternetGames" region=body width=max height=max margin-right=15 spacing=-4  }
-		place { control="gamelist" align=left margin-left=13 margin-right=14 margin-top=14 margin-bottom=43 width=max height=max }
+		place { control="gamelist" align=left margin-left=10 margin-right=10 margin-top=10 margin-bottom=43 width=max height=max }
 		place { control="AddServerButton,RefreshQuickButton,RefreshButton,ConnectButton" region="bottom" margin-right=10 spacing=8 height=24 align=right }
 		place { control="Filter,FilterString" region="bottom" height=24 width=max end-right="AddServerButton" margin-left=10 spacing=8 }
 		
