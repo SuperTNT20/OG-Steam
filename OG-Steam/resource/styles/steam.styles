@@ -2837,7 +2837,7 @@ steam.styles
 		// the background and frame of a tooltip
 		TooltipWindow
 		{
-			bgcolor="MaizeBG"
+			bgcolor="DarkGreenBG"
 		}
 
 		// body text inside a tooltip
