@@ -33,4 +33,10 @@
 		"wrap"		"0"
 		"Default"		"0"
 	}
+
+	layout
+	{
+		place { control="AddFriendButton" align=right y=331 margin-right=10 }
+		place { control="PlayersList" margin-top=10 margin-bottom=40 margin-left=10 margin-right=10 }
+	}
 }

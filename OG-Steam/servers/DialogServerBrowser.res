@@ -51,7 +51,7 @@
 	{
 		status
 		{
-			bgcolor="GreenBG"
+			bgcolor="none"
 			inset="8 0 0 0"
 		}
 	}
