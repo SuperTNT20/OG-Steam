@@ -2133,15 +2133,21 @@ steam.styles
 
 		RichText
 		{
-			bgcolor = "DarkGreenBG"
+			bgcolor="none"
 			textcolor="White"
 			selectedtextcolor="White"
 			font-family=basefont
 			font-size=16
 			font-weight=400
 			inset="0 -1 0 0"
-			render
+			render_bg
 			{
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+				
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGreenBG )" // inside
 			}
 		}
 
@@ -2187,8 +2193,8 @@ steam.styles
 
 		Scrollbar
 		{
-			bgcolor=GreenBG
-			inset="2 2 4 4"
+			bgcolor=none
+			inset = "3 0 3 2"
 		}
 
 		Scrollbarbutton
@@ -2198,7 +2204,7 @@ steam.styles
 			{
 				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 
 				//Up Arrow
@@ -2216,7 +2222,7 @@ steam.styles
 			{
 				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 
 				//Up Arrow
@@ -2234,7 +2240,7 @@ steam.styles
 			{
 				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 
 				//Down Arrow
@@ -2252,7 +2258,7 @@ steam.styles
 			{
 				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 
 				//Down Arrow
@@ -2273,11 +2279,6 @@ steam.styles
 				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
-		}
-
-		ScrollBarSlider
-		{
-			inset = "0 2 0 2"
 		}
 
 		"SliderHoriz"  //horizontal scrollbar thumb
@@ -2327,16 +2328,19 @@ steam.styles
 		ScrollBarSlider // gutter
 		{
 			bgcolor="LightGreenBG"
+			inset="0 0 0 0"
 			render_bg
 			{
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, LightGreenBG )" // inside
 			}
 		}
 
 		ScrollBarSliderHoriz // gutter
 		{
-			bgcolor="LightGreenBG"
+			bgcolor="none"
 			render_bg
 			{
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, LightGreenBG )" // inside
 			}
 		}
 
