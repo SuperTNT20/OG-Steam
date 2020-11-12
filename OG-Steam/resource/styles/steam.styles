@@ -435,9 +435,9 @@ steam.styles
 			inset = "4 0 0 0"
 			textcolor = White
 			render_bg {
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
@@ -453,12 +453,28 @@ steam.styles
 		{
 			textcolor=White
 			render_bg {
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderDark )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderBright )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
+			}
+		}
+		
+		Button:focus
+		{
+			textcolor=White
+			bgcolor=GreenBG
+			render_bg {
+				1="fill( x0, y0, x1, y0 + 2, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 2, y1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+				5="fill( x0, y0, x1, y0 + 1, Black )"  // top
+				6="fill( x0, y1, x1 + 1, y1 + 1, Black )"  // bottom
+				7="fill( x0, y0, x0 + 1, y1, Black )"  // left
+				8"fill( x1, y0, x1 + 1, y1, Black )"  // right
 			}
 		}
 
@@ -467,9 +483,9 @@ steam.styles
 			textcolor=ClayDisabledText
 			render_bg
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 2, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1 - 1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
@@ -503,6 +519,22 @@ steam.styles
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			
 				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, GreenBG )" // inside
+			}
+		}
+
+		"Page Button:focus"
+		{
+			textcolor=White
+			bgcolor=GreenBG
+			render_bg {
+				1="fill( x0, y0, x1, y0 + 2, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 2, y1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+				5="fill( x0, y0, x1, y0 + 1, Black )"  // top
+				6="fill( x0, y1, x1 + 1, y1 + 1, Black )"  // bottom
+				7="fill( x0, y0, x0 + 1, y1, Black )"  // left
+				8"fill( x1, y0, x1 + 1, y1, Black )"  // right
 			}
 		}
 
@@ -1617,19 +1649,19 @@ steam.styles
 			inset="3 1 0 0"
 			font-size=16
 			textcolor="White"
-			bgcolor="DarkGreenBG"
+			bgcolor="none"
 			render
 			{
-				//1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			}
-			
 			render_bg
 			{
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGreenBG )" // inside
 			}
-		} 
+		}   
 		
 		ListPanelInterior:scrollbar
 		{
@@ -1638,11 +1670,16 @@ steam.styles
 			textcolor="text2"
 			render
 			{
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 			}
 			render_bg
 			{
+				5="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGreenBG )" // inside
 			}
-		}
+		}  
 
 		"CSteamRootDialog ListPanel"
 		{
