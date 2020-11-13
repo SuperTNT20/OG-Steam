@@ -163,9 +163,9 @@ Scheme
 		{
 			sheet
 			{
-				xpos	12
+				xpos	10
 				ypos	40
-				wide	r12
+				wide	r10
 				tall	r48
 			}
 			
@@ -200,9 +200,9 @@ Scheme
 		{
 			subpanel
 			{
-				xpos	12
+				xpos	10
 				ypos	40
-				wide	r12
+				wide	r10
 				tall	r48
 				AutoResize	3
 			}
