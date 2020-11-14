@@ -24,10 +24,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_back"
 		}
@@ -37,10 +33,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_back_over"
 		}
@@ -50,10 +42,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 		}
 		image="graphics/icon_button_back_down"
 		}
@@ -63,10 +51,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_back_disabled"
 		}
@@ -76,10 +60,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_forward"
 		}
@@ -90,10 +70,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_forward_over"
 		}
@@ -103,10 +79,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 		}
 		image="graphics/icon_button_forward_down"
 		}
@@ -116,10 +88,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_forward_disabled"
 		}
@@ -130,10 +98,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_reload"
 		}
@@ -143,10 +107,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_reload_over"
 		}
@@ -156,10 +116,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 		}
 		image="graphics/icon_button_reload_down"
 		}
@@ -169,10 +125,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_reload_disabled"
 		}
@@ -182,10 +134,6 @@
 		inset="-2 0 2 0"
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_stop"
 		}
@@ -196,10 +144,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_stop_over"
 		}
@@ -209,10 +153,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
 		}
 		image="graphics/icon_button_stop_down"
 		}
@@ -222,10 +162,6 @@
 		bgcolor=none
 		render_bg=
 		{
-			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, BorderBright )"  // left
-			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 		}
 		image="graphics/icon_button_stop_disabled"
 		}		
@@ -313,7 +249,6 @@
 	
 	layout
 	{
-		place [!$OSX] { control="frame_minimize,frame_maximize,frame_close" align=right margin-top=8 margin-right=8 spacing=2 }
 		place { control="htmlpopupchild" width=max height=max margin-top=65 margin-left=4 margin-right=4 margin-bottom=26 }
 		place { control="StatusText" align=bottom height=24 margin-left=9 margin-bottom=1 }
 		place { control="PageLoadThrobber" align=right margin-top=34 margin-right=10 width=20 height=20 }	
