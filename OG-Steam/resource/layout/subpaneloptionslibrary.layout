@@ -51,7 +51,7 @@
 		region { name=top region=box y=10 height=max }
 		region { name=middle region=top y=50 width=max height=150 }
 		region { name=bottomleft region=top y=200 width=255 margin-right=20 height=max}
-		region { name=bottomright region=top x=263 y=200 width=235 height=max }
+		region { name=bottomright region=top x=263 y=200 width=250 height=max }
 
 		place { controls=TitleLabel region=top }
 

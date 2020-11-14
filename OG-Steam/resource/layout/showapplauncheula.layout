@@ -1,7 +1,0 @@
-"resource/showapplaunchesula.layout"
-{
-	layout
-	{
-		place [!$OSX] { control="frame_minimize,frame_maximize,frame_close" align=right margin-top=8 margin-right=8 spacing=2 }
-	}
-}

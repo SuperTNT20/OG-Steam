@@ -15,13 +15,13 @@
 	{
 		AccountMenuStyle
 		{
-		bgcolor = DarkClayBG
+		bgcolor = DarkGreenBG
 		inset = "1 0 1 1"
 		render_bg {
-			1="fill( x0, y0, x1, y0 + 1, LightClayBG )"  // top
-			2="fill( x0, y1 - 1, x1, y1, LightClayBG )"  // bottom
-			3="fill( x0, y0, x0 + 1, y1, LightClayBG )"  // left
-			4="fill( x1 - 1, y0, x1, y1, LightClayBG )"  // right
+			1="fill( x0, y0, x1, y0 + 1, LightGreenBG )"  // top
+			2="fill( x0, y1 - 1, x1, y1, LightGreenBG )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1, LightGreenBG )"  // left
+			4="fill( x1 - 1, y0, x1, y1, LightGreenBG )"  // right
 			}
 		}
 	
