@@ -1470,7 +1470,6 @@ steam.styles
 			font-style="uppercase"
 			bgcolor="none"
 			inset="0 0 0 0"
-			inset="0 1 0 0" [$OSX]
 			padding-top=1
 
 			render
@@ -1491,7 +1490,7 @@ steam.styles
 
 		"Csteamrootdialog ListPanelSectionCollapser"
 		{
-			inset = "0 1 0 1"
+			inset = "0 0 0 0"
 			bgcolor=GreenBG
 			render_bg
 			{
@@ -1506,7 +1505,7 @@ steam.styles
 		
 		"CGamesPage_Mini ListPanelSectionCollapser"
 		{
-			inset = "0 1 0 1"
+			inset="0 0 0 0"
 			bgcolor=GreenBG
 			render_bg
 			{
@@ -1521,7 +1520,7 @@ steam.styles
 
 		ListPanelColumnSelectButton // the games list column chooser  
 		{
-			inset="0 0 0 0"
+			inset="2 2 1 0"
 			render
 			{
 				// background fill
@@ -1541,7 +1540,6 @@ steam.styles
 
 		ListPanelColumnSelectButton:hover
 		 {
-			inset="0 0 0 0"
 			render
 			{
 				// background fill
@@ -1561,8 +1559,6 @@ steam.styles
 
 		ListPanelColumnSelectButton:selected
 		{
-			bgcolor=GreenBG
-			inset="0 0 0 0"
 			render
 			{
 				 // background fill
@@ -1603,8 +1599,6 @@ steam.styles
 
 		"CGamesListPanel ListPanelColumnSelectButton:hover"   
 		{
-			inset="0 0 0 0"
-			bgcolor=GreenBG
 			render
 			{
 				// background fill
@@ -1622,8 +1616,6 @@ steam.styles
 
 		"CGamesListPanel ListPanelColumnSelectButton:selected"   
 		{
-			inset="0 0 0 0"
-			bgcolor=GreenBG
 			render
 			{
 				 // background fill
