@@ -2191,26 +2191,14 @@ steam.styles
 			bgcolor=none
 			inset = "3 0 3 2"
 		}
-
-		Scrollbarbutton
+		
+		Scrollbar.Horizontal
 		{
-			bgcolor=GreenBG
-			render_bg
-			{
-				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
-				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
-				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
-				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
-
-				//Up Arrow
-				10="fill( x0 + 7, y0 + 5, x0 + 8, y0 + 6, BorderBright )"
-				11="fill( x0 + 6, y0 + 6, x0 + 9, y0 + 7, BorderBright )"
-				12="fill( x0 + 5, y0 + 7, x0 + 10, y0 + 8, BorderBright )"
-				13="fill( x0 + 4, y0 + 8, x0 + 11, y0 + 9, BorderBright )"
-			}
+			bgcolor=none
+			inset = "2 3 1 3"
 		}
 
-		Scrollbarbutton:hover
+		Scrollbarbutton
 		{
 			bgcolor=GreenBG
 			render_bg
@@ -2245,8 +2233,8 @@ steam.styles
 				13="fill( x0 + 4, y0 + 6, x0 + 11, y0 + 7, BorderBright )"
 			}
 		}
-
-		Scrollbarbutton.down:hover
+		
+		Scrollbarbutton.left
 		{
 			bgcolor=GreenBG
 			render_bg
@@ -2256,11 +2244,29 @@ steam.styles
 				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 
-				//Down Arrow
-				10="fill( x0 + 7, y0 + 9, x0 + 8, y0 + 10, BorderBright )"
-				11="fill( x0 + 6, y0 + 8, x0 + 9, y0 + 9, BorderBright )"
-				12="fill( x0 + 5, y0 + 7, x0 + 10, y0 + 8, BorderBright )"
-				13="fill( x0 + 4, y0 + 6, x0 + 11, y0 + 7, BorderBright )"
+				//Left Arrow
+				10="fill( x0 + 8, y0 + 3, x0 + 9, y0 + 11, BorderBright )"
+				11="fill( x0 + 7, y0 + 4, x0 + 8, y0 + 10, BorderBright )"
+				12="fill( x0 + 6, y0 + 5, x0 + 7, y0 + 9, BorderBright )"
+				13="fill( x0 + 5, y0 + 6, x0 + 6, y0 + 8, BorderBright )"
+			}
+		}
+		
+		Scrollbarbutton.right
+		{
+			bgcolor=GreenBG
+			render_bg
+			{
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+
+				//Right Arrow
+				10="fill( x0 + 5, y0 + 3, x0 + 6, y0 + 11, BorderBright )"
+				11="fill( x0 + 6, y0 + 4, x0 + 7, y0 + 10, BorderBright )"
+				12="fill( x0 + 7, y0 + 5, x0 + 8, y0 + 9, BorderBright )"
+				13="fill( x0 + 8, y0 + 6, x0 + 9, y0 + 8, BorderBright )"
 			}
 		}
 
@@ -2279,44 +2285,38 @@ steam.styles
 		"SliderHoriz"  //horizontal scrollbar thumb
 		{
 
-			image="graphics/icon_scroll_handle_horiz"
+			bgcolor=GreenBG
 			render
 			{
-				// center fill
-				1="fill( x0 + 2, y0 + 6, x1 - 1, y1 - 3, ButtonFace )"	
-					
-				// lines around
-				1="fill( x0 + 3, y0 + 5, x1 - 2, y0 + 6, buttonface )"  // top
-				2="fill( x0 + 3, y1 - 3, x1 - 2, y1 - 2, buttonface )"  // bottom
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
 		}
 		
 		"SliderHoriz:hover"
 		{
 
-		 image="graphics/icon_scroll_handle_over_horiz"
+			bgcolor=GreenBG
 			render
 			{
-				// center fill
-				0="fill( x0 + 2, y0 + 6, x1 - 1, y1 - 3, ButtonFaceActive )"	
-
-				// lines around
-				1="fill( x0 + 3, y0 + 5, x1 - 2, y0 + 6, buttonfaceActive )"  // top
-				2="fill( x0 + 3, y1 - 3, x1 - 2, y1 - 2, buttonfaceActive )"  // bottom
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
 		}
 
 		"SliderHoriz:active"
 		{
-			image="graphics/icon_scroll_handle_over_horiz"
+			bgcolor=GreenBG
 			render
 			{
-				// center fill
-				0="fill( x0 + 2, y0 + 6, x1 - 1, y1 - 3, ButtonFaceActive )"	
-
-				// lines around
-				1="fill( x0 + 3, y0 + 5, x1 - 2, y0 + 6, buttonfaceActive )"  // top
-				2="fill( x0 + 3, y1 - 3, x1 - 2, y1 - 2, buttonfaceActive )"  // bottom
+				1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
 			}
 		}
 
@@ -2353,11 +2353,6 @@ steam.styles
 			render_bg
 			{
 			}
-		}
-
-		"ScrollBar SliderHoriz" // gutter
-		{
-			bgcolor="LightGreenBG"
 		}
 
 		"HTML ScrollBar"
@@ -2879,16 +2874,23 @@ steam.styles
 
 		TreeViewSubPanel
 		{
-			bgcolor=none
+			bgcolor=DarkGreenBG
+			render
+			{
+				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
+				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+			}
 		}
 
 		TreeNodeText
 		{
 			font-family=basefont
-			font-size=16
+			font-size=14
 			textcolor="Text"
 			selectedtextcolor="White"
-			selectedbgcolor="MaizeBG"
+			selectedbgcolor="BorderDark"
 			bgcolor=none
 			render
 			{
