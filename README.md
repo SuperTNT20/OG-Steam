@@ -1,6 +1,6 @@
 # OG-Steam
 
-Update: Try OG-Steam-Library theme for use with <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>.
+Update: Try <a href="https://github.com/ungstein/OG-Steam-Library">OG-Steam-Library<a> theme for use with <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>.
 
 An Internet Time Warp
 -
