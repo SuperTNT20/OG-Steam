@@ -3632,11 +3632,9 @@ steam.styles
 
 		SuperNavMenuDivider
 		{
-			render
+			render_bg
 			{
-				1="fill( x0 , y0 + 1, x1, y1 - 1, SuperDivider )"  // line
-				2="gradient_horizontal( x0 , y0 + 1, x0 + 11, y1 - 1, DarkClayBG, SuperDivider )" //left fade
-				3="gradient_horizontal( x1 - 11 , y0 + 1, x1, y1 - 1, SuperDivider, DarkClayBG)" //right fade	
+				1="fill( x0 , y0 + 1, x1, y1 - 1, MenuDivider )"  // line
 			}
 		}
 	
