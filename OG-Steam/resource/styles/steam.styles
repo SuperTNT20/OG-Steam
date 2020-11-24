@@ -3634,7 +3634,7 @@ steam.styles
 		{
 			render_bg
 			{
-				1="fill( x0 , y0 + 1, x1, y1 - 1, MenuDivider )"  // line
+				1="fill( x0 , y0 + 1, x1, y1 - 1, SuperDivider )"  // line
 			}
 		}
 	
