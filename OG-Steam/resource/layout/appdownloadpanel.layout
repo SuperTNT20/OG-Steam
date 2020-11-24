@@ -55,7 +55,7 @@
 		
 		panelStyleHighlight
 		{
-			bgcolor = "none"
+			bgcolor = "BorderDark"
 			render_bg
 			{
 			}			
