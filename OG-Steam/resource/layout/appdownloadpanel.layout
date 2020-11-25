@@ -50,12 +50,15 @@
 	{
 		panelStyle
 		{
-			bgcolor = "BorderDark"
+			bgcolor = "DarkGreenBG"
+			render_bg
+			{
+			}			
 		}
 		
 		panelStyleHighlight
 		{
-			bgcolor = "BorderDark"
+			bgcolor = "DarkGreenBG"
 			render_bg
 			{
 			}			
@@ -162,7 +165,7 @@
 		
 		panelBgColorActive
 		{
-			bgcolor = "clientbg"
+			bgcolor = "DarkGreenBG"
 		}
 
 				
