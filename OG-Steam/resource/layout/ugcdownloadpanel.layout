@@ -48,14 +48,11 @@
 	{
 		panelStyle
 		{
-			bgcolor=BorderDark
-			
+			bgcolor=DarkGreenBG
 		}	
 		panelStyleHighlight
 		{
-			render_bg
-			{
-			}			
+			bgcolor=DarkGreenBG
 		}
 
 		links
