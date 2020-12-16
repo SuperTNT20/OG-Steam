@@ -6,7 +6,7 @@
 		"fieldName"		"ClanEventDialog"
 		"xpos"		"820"
 		"ypos"		"506"
-		"wide"		"360"
+		"wide"		"420"
 		"tall"		"140"
 		"AutoResize"		"0"
 		"PinCorner"		"0"
