@@ -7,7 +7,7 @@ An Internet Time Warp
 
 This skin is intended to replicate the style of Steam from around 2004. From a skinning perspective, I think this is as far back as anyone can reasonably take the Steam client. Several tweaks have been made using visual references and original Steam assets.
 
-This version includes fixes for the latest version of the Steam client (**Last Updated 2020-10-28**).
+This version includes fixes for the latest version of the Steam client (**Last Updated 2020-12-20**).
 
 Installing
 -
