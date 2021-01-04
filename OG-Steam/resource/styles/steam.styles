@@ -3157,6 +3157,8 @@ steam.styles
 		VRButton:active
 		{
 		bgcolor=none
+		render_bg=
+		{
 			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 			3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
@@ -3207,6 +3209,8 @@ steam.styles
 		VRButtonExit:active
 		{
 		bgcolor=none
+		render_bg=
+		{
 			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 			3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
