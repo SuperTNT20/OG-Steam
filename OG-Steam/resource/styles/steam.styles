@@ -3131,56 +3131,100 @@ steam.styles
 		VRButton
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr"
 		}
 
 		VRButton:hover
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr_over"
 		}
 
 		VRButton:active
 		{
 		bgcolor=none
-		render_bg={}
+			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+		}
 		image="graphics/icon_vr_down"
 		}
 
 		VRButton:disabled
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr_disabled"
 		}
 
 		VRButtonExit
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr_happy"
 		}
 
 		VRButtonExit:hover
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr_happy_over"
 		}
 
 		VRButtonExit:active
 		{
 		bgcolor=none
-		render_bg={}
+			1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+		}
 		image="graphics/icon_vr_happy_down"
 		}
 
 		VRButtonExit:disabled
 		{
 		bgcolor=none
-		render_bg={}
+		render_bg=
+		{
+			1="fill( x0, y0, x1, y0 + 1, BorderBright )"  // top
+			2="fill( x0, y1 - 1, x1, y1, BorderDark )"  // bottom
+			3="fill( x0, y0, x0 + 1, y1 - 1, BorderBright )"  // left
+			4="fill( x1 - 1, y0, x1, y1, BorderDark )"  // right
+		}
 		image="graphics/icon_vr_disabled"
 		}
 
