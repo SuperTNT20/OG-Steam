@@ -1107,7 +1107,8 @@ steam.styles
 		FrameTitle {
 			font-family = basefont
 			font-size=16
-			//bgcolor = GreenBG
+			padding-left="0"
+			padding-right="64"
 			textcolor = ClayDisabledText
 			inset = "22 6 0 4"
 			render_bg
@@ -1119,7 +1120,8 @@ steam.styles
 		FrameTitle:FrameFocus {
 			font-family = basefont
 			font-size=16
-			//bgcolor = GreenBG
+			padding-left="0"
+			padding-right="64"
 			textcolor = White
 			inset = "22 6 0 4"
 			render_bg
