@@ -3119,6 +3119,7 @@ steam.styles
 
 		FullscreenButton:disabled
 		{
+		inset="-2 0 2 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3132,6 +3133,7 @@ steam.styles
 
 		VRButton
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3145,6 +3147,7 @@ steam.styles
 
 		VRButton:hover
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3158,6 +3161,7 @@ steam.styles
 
 		VRButton:active
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3171,6 +3175,7 @@ steam.styles
 
 		VRButton:disabled
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3184,6 +3189,7 @@ steam.styles
 
 		VRButtonExit
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3197,6 +3203,7 @@ steam.styles
 
 		VRButtonExit:hover
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3210,6 +3217,7 @@ steam.styles
 
 		VRButtonExit:active
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
@@ -3223,6 +3231,7 @@ steam.styles
 
 		VRButtonExit:disabled
 		{
+		inset="-4 0 4 0"
 		bgcolor=none
 		render_bg=
 		{
