@@ -60,7 +60,8 @@
 		
 		NavLabel2 {
 			font-family = basefont
-			inset = "4 0 4 0"
+			inset = "4 0 2 0"
+			padding-right=4
 			textcolor = White
 			render_bg
 			{
