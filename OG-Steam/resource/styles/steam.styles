@@ -1362,7 +1362,7 @@ steam.styles
 			font-weight=400
 			textcolor="White"
 			image="graphics/chkUnselStd_Sm"
-			inset="0 5 0 0"
+			inset="0 4 0 0"
 		}
 
 		
@@ -2484,18 +2484,18 @@ steam.styles
 			font-family=basefont
 			font-size=16
 			font-weight=400
-			textcolor="white"
+			textcolor="White"
 			font-style=uppercase
 		}
 		
 
 		TextEntry
 		{
-			font-family = basefont
+			font-family=basefont
 			font-size=16
 			bgcolor=DarkGreenBG
 			textcolor = White
-			inset = "4 0 8 0"
+			inset = "4 0 4 0"
 			selectedbgcolor = MaizeBG
 			selectedtextcolor="White"
 			shadowtextcolor = White
@@ -2515,9 +2515,9 @@ steam.styles
 		{
 			font-family=basefont
 			font-size=16
-			textcolor="White"
-			selectedbgcolor = MaizeBG
-			selectedtextcolor="White"
+			textcolor=White
+			selectedbgcolor=MaizeBG
+			selectedtextcolor=White
 			bgcolor=DarkGreenBG
 			render
 			{
@@ -2533,7 +2533,7 @@ steam.styles
 
 		TextEntry:focus
 		{
-			textcolor="White"
+			textcolor=White
 			bgcolor=DarkGreenBG
 			render
 			{
@@ -2549,7 +2549,7 @@ steam.styles
 
 		"Page TextEntry:focus"
 		{
-			textcolor="White"
+			textcolor=White
 			bgcolor=DarkGreenBG
 			render
 			{
@@ -2567,12 +2567,14 @@ steam.styles
 		{
 			bgcolor=GreenBG
 			textcolor=ClayDisabledText
-			render_bg
+			render
 			{
 				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1 - 1, BorderDark )"  // left
 				4="fill( x1 - 1, y0, x1, y1, BorderBright )"  // right
+
+				// single pixel fills in the corners
 			}
 		}
 
