@@ -1108,7 +1108,7 @@ steam.styles
 			font-family = basefont
 			font-size=16
 			padding-left="0"
-			padding-right="64"
+			padding-right="72"
 			textcolor = ClayDisabledText
 			inset = "22 6 0 4"
 			render_bg
