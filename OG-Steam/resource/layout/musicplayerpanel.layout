@@ -132,8 +132,8 @@
 		region { name=transport y=20 width=271 height=70 align=right}
 		region { name=currenttrack x=10 y=20 width=max height=50 margin-right=271 }
 		
-		place {	control="CurrentAlbumImage"	region=currenttrack x=0 y=6 width=56 height=56	}
-		place { control="CurrentStatusLabel" region=currenttrack x=64 y=4 width=max }
+		place {	control="CurrentAlbumImage"	region=currenttrack x=0 y=10 width=56 height=56	}
+		place { control="CurrentStatusLabel" region=currenttrack x=64 y=10 width=max }
 		place { control="CurrentTrackLabel" region=currenttrack x=64 y=20 width=max}
 		place { control="CurrentArtistLabel" region=currenttrack x=64 y=36 width=max }
 		
