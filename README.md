@@ -16,13 +16,7 @@ Installing
 
 * Copy **OG-Steam** into `Steam/skins`
 * Select the new skin trough `Settings/Interface`
-* Disable font smoothing in both Steam and Windows for a retro look.
-
-Known Issues
--
-
-* [FIXED] Window minimise/maximise/close buttons do not render properly on some windows. This is because some containers do not have associated .res files so there is no way to specify button positions (that I am aware of).
-* [FIXED] Overlay web browser seems to have some hard-coded styling that I have been unable to change.
+* Disable font smoothing in both Steam and Windows for a retro look (not recommended for everyday use).
 
 Preview
 -
