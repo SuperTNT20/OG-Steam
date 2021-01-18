@@ -31,7 +31,7 @@ Preview
 ![Store](media/OGS_Store.png)
 ![Library](media/OGS_Library.png)
 ![Small Mode](media/OGS_SmallMode.png)
-![Downloads](media/OGS_Downloads.png)
+![Downloads](https://bn1305files.storage.live.com/y4mT5Kba0T9impPDXn5JKqhjAsW7dUhzwstEt25ZWji3H6nIhro8FQarxjpezdIUKnjLlVRRVTyvVW3FuHNc_7IypY_g6wizzUt2MG-VQIhgWEh2XvbyBEk-_df0mxrSsvDNhaafS0drhQw1rNFwn-YquTxOo8spBPiMjnYS_sC_azOBWzGhZPizJknBGKKjNeR?width=1680&height=1050&cropmode=none)
 ![Overlay](media/OGS_Overlay.png)
 ![Servers](media/OGS_Servers.png)
 ![Music Player](media/OGS_MusicPlayer.png)
