@@ -178,7 +178,7 @@ steam.styles
 		"ClayEnabled"			"85 88 82 255"
 		"ClayKeyFocus"			"89 92 77 255"
 		"ClayMouseDown"			"85 85 85 255"
-//		"ClayDisabledText"		"128 134 126 255"
+		"ClayDisabledText"		"128 134 126 255"
 		"ClayDisabledText"		"128 128 128 255"
 		"ClayLightGreen"		"173 181 168 255"	// frame button (close X) etc
 		"ClayDimLightGreen"		"166 172 162 255"	// frame button and title without focus etc
@@ -189,7 +189,7 @@ steam.styles
 		"ClaySheetBottom"   "92 90 87 255"
 		"MaizeBG"     "145 134 60 255"  // background color of any selected text or menu item
 		"GreenBG"     "76 88 68 255"
-//		"LightGreenBG"      "90 106 80 255"   // darker background color
+		"LightGreenBG"      "90 106 80 255"   // darker background color
 		"DarkGreenBG"     "62 70 55 255"    // background color of text edit panes (chat, text Entries, etc.)
 		"LightGrayBG"     "121 126 121 255"
 		"GrayBG"      "77 73 71 255"
@@ -212,27 +212,6 @@ steam.styles
 		GrayBG2="82 89 78 255"
 
 		SecBG=GrayBG2
-
-//		GreenBG="70 70 70 255"
-		ClayButtonBG="87 88 88 255"
-		ClayEnabled="85 88 82 255"
-		ClayKeyFocus="89 92 77 255"
-		ClayMouseDown="85 85 85 255"
-		ClayDisabledText="128 134 126 255"
-		ClayLightGreen="173 181 168 255"	// frame button (close X) etc
-		ClayDimLightGreen="166 172 162 255"	// frame button and title without focus etc
-//		LightGreenBG="104 106 101 255"	// property sheet interior, active tab
-		LightClayButtonBG="125 128 120 255"	// buttons on property sheet interior, active tab
-
-//		DarkGreenBG="47 49 45 255"	// shadow
-		p_ClayMouseDown="94 94 94 255"
-		ClaySheetBottom="92 89 87 255"
-
-		MaizeBG="145 134 60 255"	// background color of any selected text or menu item
-
-		GreenBG="76 88 68 255"
-		LightGreenBG="90 106 80 255"	// darker background color
-		DarkGreenBG="62 70 55 255"	// background color of text edit panes (chat, text entries, etc.)
 
 		DisabledText1="117 128 111 255"	// disabled text
 		DisabledText2="40 46 34 255"	// overlay color for disabled text (to give that inset look
@@ -595,7 +574,7 @@ steam.styles
 		CheckButton
 		{
 			font-family = basefont
-			font-size=16
+			font-size=14
 			image = "Graphics/chkUnselStd"
 			textcolor=White
 		}
