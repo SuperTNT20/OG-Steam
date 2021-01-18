@@ -15,7 +15,7 @@
 		CDialogSettings
 		{
 			font-size=16
-			minimum-width="810"
+			minimum-width="800"
 			minimum-height="620"
 			bgcolor=GreenBG
 			render_bg
@@ -61,7 +61,7 @@
    		 render
 			{				
      			//line to hide a bug here
-     			//1="fill(x0, y0 - 3, x1, y0 +1, GreenBG)"
+     			0="fill(x0, y0 - 3, x1, y0 +1, GreenBG)"
 				1="fill( x0, y0, x1, y0 + 1, BorderDark )"  // top
 				2="fill( x0, y1 - 1, x1, y1, BorderBright )"  // bottom
 				3="fill( x0, y0, x0 + 1, y1, BorderDark )"  // left
