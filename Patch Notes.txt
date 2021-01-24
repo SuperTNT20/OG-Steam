@@ -4,6 +4,16 @@ OG-Steam Patch Notes
 
 ------------------------------------------------------------
 
+v1.0.4
+
+Minor tweaks
+- Adjusted vertical scrollbar button arrow position
+- Adjusted NoTracksLabel position in Music Player
+- Added border/background to Screenshot Manager grid
+- Adjusted ListPanelColumnheader border
+
+------------------------------------------------------------
+
 v1.0.3
 
 Minor tweaks
